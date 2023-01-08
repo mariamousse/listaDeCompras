@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.inputAdd {
+  width: 200px;
+  height: 30px;
+  border-radius: 100px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  background-color: rgb(50,50,50);
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+::placeholder {
+  color: rgb(200,200,200);
+}
+
+.buttonAdd {
+  width: 40px;
+  height: 40px;
+  background-image: url("add.png");
+  cursor: pointer;
+  border: transparent;
+}
+
+.inputCompleted {
+  width: 40px;
+  height: 40px;
+}
+
+.item {
+  width: 25px;
+  height: 25px;
+  background-image: "";
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
